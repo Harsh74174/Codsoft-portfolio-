@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet"type="text/css" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+                   
+            <ul id="sidemenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                <i class="fas fa-times"onclick="closemenu()"></i>
+            </ul>
+            <i class ="fas fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="">
+            <n>Engineering Undergraduate</n>
+            <h1>Hello,I am <span>Harsh Kumar</span><br>currently a 2nd year undergraduate in engineering at UIT.</h1>
+        </div>
+    </div>
+    <!-----------------------------about--------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am Harsh kumar from Saharanpur,Uttar pradesh,India. Currently I'm persuing my Bachelors in Technology in computer science and engineering from Uttaranchal Institute of Technology,Dehradun.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interference</li>
+                            <li><span>Web Development</span><br>Building websites using html and css</li>
+                            <li><span>App/Game/Software Development</span><br>Development using coding languages.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>1st year bachelors/1st sem</span><br>Built html web pages.</li>
+                            <li><span>1st year bachelors/2nd sem</span><br>Built multi-tasking websites using css.</li>
+                            <li><span>1st year bachelors/2nd sem</span><br>Built simple programming games.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            
+                            <li><span>2019</span><br>Completed class 10th boards securing 89 percentage in CBSE board, from Kendriya Vidyalaya No.2 CPE Itarsi,Madhya Pradesh.</li>
+                            <li><span>2020</span><br>Secured Zonal Rank 1st, National rank 74 and International Rank 119 in International Cyber Olympiad.</li>
+                            <li><span>2022</span><br>Completed class 12th boards from CBSE board, from Kendriya Vidyalaya No.2 CPE Itarsi,Madhya Pradesh.</li>
+                            <li><span>2024</span><br>Completed 1st year of Bachelors in computer science and engineering from Uttaranchal Institute of Technology securing.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+<!---------------------------Projects----------------------->
+<div class="Projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="Project-list">
+            <div>
+                <h2>Programming Games</h2>
+                <p>Simple Programming Game made using languages like C and Python.It includes single player and Multiplayer games as well.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <h2>WhatsApp Automation</h2>
+                <p>User can share a pre-recorded or pre-written message on desirable time according to their need.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <h2>Simple calculator</h2>
+                <p>A calculator that can perform mathematical arithmatic calculations in a convient way.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div> 
+    </div>
+</div>
+<!-------------------Portfolio--------------------------------->
+<div class="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Work img1.png">
+                <div class="layer">
+                    <h3>Whatsapp Automation</h3>
+                    <p>It is a python program.This program helps you automate your whatsapp messaging. All you need to do is input a phone number and time. 
+                        That's it,your message to the desired number will be sent on the desirable time.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work img2.png">
+                <div class="layer">
+                    <h3>Simple programming games</h3>
+                    <p>Simple programming games like stone paper scissors using c language.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work img3.png">
+                <div class="layer">
+                    <h3>Web Development</h3>
+                    <p>This is a landing website page, made using html and css.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#"class="btn">See more</a>
+    </div>
+</div>
+<!---------------------------------------Contact--------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-threads"></i></a>
+                </div>
+                <a href="" Download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <Textarea name="message"rows="6"placeholder="Your Message"></Textarea>
+                    <button type="submit"class="btn btn2">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="copyright">
+    <p>Copyright Devansh.Made by Devansh Upadhyaya. </p>
+    </div>
+</div>
+<script>   
+</script>
+</body>
+</html>
